@@ -28,25 +28,25 @@ public class Main {
     private static final int RIGHT_PAREN = 26;
 
     public static void main(String[] args) {
-        
     }
 
     //Functions
 
     void addChar() {
-
+        //TODO: Add nextChar to lexeme
     }
 
     void getChar() {
-
+        //TODO: Get next character of input and determine its character class
     }
 
     void getNonBlank() {
-
+        while (Character.isWhitespace(nextChar)) getChar();
     }
 
     int lex() {
-
+        //TODO: Lexical analyzer for arithmetic expressions
+        
         return 0;
     }
 }
