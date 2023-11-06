@@ -34,6 +34,12 @@ public class Main {
 
     void addChar() {
         //TODO: Add nextChar to lexeme
+        if(lexLen <= 98) {
+            lexeme[lexLen++] = nextChar;
+            lexeme[lexLen] = 0;
+        } else {
+            System.out.println("Error - lexeme is too long \n");
+        }
     }
 
     void getChar() {
