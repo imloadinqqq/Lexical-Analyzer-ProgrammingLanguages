@@ -46,7 +46,7 @@ public class Main {
 
     int lex() {
         //TODO: Lexical analyzer for arithmetic expressions
-        
+         
         return 0;
     }
 }
